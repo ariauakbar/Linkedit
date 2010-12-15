@@ -1,0 +1,28 @@
+body {
+	
+	background-color:#ddd;
+}
+
+#main_content {
+	
+	margin:auto;
+	padding:5px;
+	margin-left:110px;
+}
+
+#main_container {
+	
+	margin:auto;
+	padding:5px;
+	width:600px;
+}
+
+#navigation {
+	
+	float:right;
+}
+
+#home-nav {
+	
+	float:left;
+}

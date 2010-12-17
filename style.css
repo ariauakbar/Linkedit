@@ -7,14 +7,34 @@ body {
 	
 	margin:auto;
 	padding:5px;
-	margin-left:110px;
+	margin-left:200px;
+	background-color:#6A6A6A;
+	width:600px;
+	height:760px;
+}
+
+#left_content {
+	float:left;
+	width:400px;
 }
 
 #main_container {
 	
 	margin:auto;
 	padding:5px;
-	width:600px;
+	width:1024px;
+	height:784px;
+	background-color:#B5B5B5;
+	
+}
+
+#header {
+	
+	width:1024px;
+	height:30px;
+	background-color:#5D5D5D;
+	margin:auto;
+	padding:5px;
 }
 
 #navigation {
@@ -26,3 +46,88 @@ body {
 	
 	float:left;
 }
+
+#message_box {
+	
+	width:500px;
+	background-color:#B2B2B2;
+	padding:5px;
+	margin:auto;
+}
+
+#message_box .message_list {
+	padding:5px;
+	margin-left:5px;
+	height:500px;
+}
+
+#new_message_box {
+	width:500px;
+	padding:5px;
+	margin:auto;
+	background-color:#B4B4B4;
+}
+
+#new_message_box label {
+	
+	float:left;
+	margin-right:10px;
+	width:50px;
+}
+
+#new_message_box form input {
+
+}
+
+#status_box {
+	color:#1A57A1;
+	width:400px;
+	padding:5px;
+	background-color:#C7DCF1;
+	margin:auto;
+}
+
+#status_box .comment{
+	width:386px;
+	padding:5px;
+	background-color:#BFD1E9;
+	border-bottom: 1px solid #fff;
+	margin:auto;
+}
+
+#status_box form {
+	margin-left:20px;
+}
+
+form #comment {
+	
+	width:375px;
+	height:30px;
+	margin:auto;
+}
+
+form #status {
+	
+
+}
+
+#update_box {
+	
+	margin:auto;
+	padding:5px;
+	width:400px;
+
+}
+
+#update_box form #status {
+	
+	width:400px;
+	height:30px;
+}
+
+
+
+
+
+
+

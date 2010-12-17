@@ -4,10 +4,15 @@
 <%
 
 	Integer id = Integer.parseInt(request.getParameter("id"));
+	String source = request.getParameter("source");
+	String userLogged = (String) session.getAttribute("usersession");
 	
 	st.executeUpdate("Delete from MsStatus where id = "+id+"");
 	con.close();
 	
-	response.sendRedirect("home.jsp");
-
+	if(source.equals("profile")){
+		response.sendRedirect("profile.jsp?user="+userLogged);
+	}else{
+		response.sendRedirect("home");
+	}
 %>
